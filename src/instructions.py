@@ -1,18 +1,20 @@
 import streamlit as st
 
+# Function to display instructions and tips for using the app
 def show_instructions():
     with st.expander("Instructions and Tips", expanded=True):
         st.markdown("""
-            **Instructions:**
+                    **Instructions:**
 
-            1. Upload a crawl file from your favorite website crawler.
-            2. Select the column that contains the URL.
-            3. Select the column that contains the content to match on (best results are typically on the page heading rather than the page content).
-            4. Wait for the clustering to complete and download your file!
+                    1. Select the model you want to use for analysis.
+                    2. Choose the sport (currently, only UFC is supported).
+                    3. Select the features you are interested in for analytics.
+                    4. Wait for the processing to complete and download your results!
 
-            **Notes and Tips:**
+                    **Notes and Recommendations:**
 
-            - You can adjust the similarity cut-off threshold in real time to see how the connections are impacted, helping you find the sweet spot before exporting.
-            - Choice of graph visualization and full display customization.
-            - This Web app is limited to 1000 rows. If you have a bigger project, please get in touch.
-        """)
+                    - The default model already contains all the necessary data for analysis.
+                    - In the future, there will be an option to upload your own model.
+                    - Various types of data visualization are available with full customization options.
+                """)
+

@@ -1,24 +1,31 @@
 import streamlit as st
 
+# Function to display information about the project and the team
 def show_about_us():
     with st.expander("About Us", expanded=False):
         st.markdown("""
-            **Our Mission**
+                    **Our Mission**
 
-            We aim to provide the most accurate and up-to-date sports analytics using advanced AI models, helping teams and individuals gain competitive advantages.
+                    We aim to develop cutting-edge sports analytics tools using advanced data science and machine learning techniques. This project strives to help sports teams and athletes make data-driven decisions and achieve outstanding results.
 
-            **Our Team**
+                    **About the Project**
 
-            - Jane Doe: Data Scientist and Machine Learning Expert.
-            - John Smith: Sport Analyst and former professional football player.
-            - Alex Brown: Software Developer with a passion for sports.
+                    This project is part of my bachelor's thesis at the Faculty of Computer Science. Our primary goal is to create and implement a sports data analysis model capable of predicting match outcomes and providing valuable insights. 
 
-            **Contact Us**
+                    **Supervised by**  
+                    - Prof. Markus Prossegger
 
-            If you have any questions or would like to collaborate, please feel free to reach out at:
-            - Email: contact@sportinet.ai
-            - Phone: +123 456 7890
-            - Address: 123 Sports Lane, Athletic City, 1010
+                    **Our Team**
 
-            We love hearing from our users and partners!
-        """)
+                    - Vadim Steshkov: Developer and researcher in the field of machine learning.
+                    - Support provided by faculty members and our supervisor.
+
+                    **Contact Us**
+
+                    If you have any questions or collaboration proposals, feel free to reach out:  
+                    - Email: Vadim.Steshkov@edu.fh-kaernten.ac.at 
+                    - Phone: +43 676 4803483   
+
+                    Thank you for your interest in our project!
+                """)
+
