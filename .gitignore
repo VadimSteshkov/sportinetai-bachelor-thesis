@@ -1,0 +1,26 @@
+# IDE и системные файлы
+.idea/
+.DS_Store
+*.DS_Store
+
+# Кэш python
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Виртуальные окружения
+.venv/
+venv/
+
+# Логи
+*.log
+
+# Базы данных
+*.sqlite3
+*.db
+
+# Не добавлять архивы
+*.zip
+
