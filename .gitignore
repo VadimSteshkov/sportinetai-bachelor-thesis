@@ -24,3 +24,6 @@ venv/
 # Не добавлять архивы
 *.zip
 
+notebooks/.ipynb_checkpoints/
+notebooks/draft/
+
